@@ -1,0 +1,43 @@
+.TaskBox{
+    flex: 1;
+    min-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.header{
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.header span{
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-right: 40px;
+}
+.delete{
+    width: 180px;
+    height: 38px;   
+    font-size: 18px;
+    text-align: center;
+    line-height:38px;
+    font-style: italic;
+    border: 2px solid #ff0000;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+.delete:hover{
+    background-color: #ff0000;
+    color: #fff;
+    transition: 0.5s;
+}
+.contain{
+    display: flex;
+    justify-content: space-evenly;
+    align-items:start;
+    width: 100%;
+    padding-top: 20px;
+}

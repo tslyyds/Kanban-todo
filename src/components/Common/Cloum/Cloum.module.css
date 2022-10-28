@@ -1,0 +1,17 @@
+.Cloum{
+    width: 350px;
+    max-height: 700px;
+    background-color: #f6f9fa   ;
+    border-radius:15px;
+    line-height:22.4px;
+    padding: 25px 25px 5px 25px;
+}
+.Cloum .tag{
+    font-size: 20px;
+    font-style: italic;
+}
+.container{
+    overflow: auto;
+    max-height: 400px;
+    min-height: 30px;
+}

@@ -1,0 +1,52 @@
+.contain{
+    width: 100%;
+    border: 1px solid #cccccc;
+    padding: 20px 15px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    transition: 0.3s;
+    cursor: pointer;
+    margin-bottom: 20px;
+    position: relative;
+}
+.contain:hover{
+    background-color: #f2f7fa;
+    transition: 0.3s;
+}
+.name{
+    font-size: 18px;
+    margin-left: 10px;
+    font-weight: 100;
+    position: relative;
+}
+.name::before{
+    position: absolute;
+    content: '';
+    width: 10px;
+    height: 10px;
+    background-color: #f19737;
+    border-radius: 5px;
+    left: -15px;
+    top: 5px;
+}
+.details{
+    font-size: 15px;
+    font-weight: 100;
+    color: #c6a89c;
+    margin-top: 10px;
+}
+.delete{
+    position: absolute;
+    right: 20px;
+    font-size: 50px;
+    bottom: 2px;
+    line-height: 30px;
+    transition: 0.3s;
+
+}
+.delete:hover{
+    color: #f53030;
+    line-height: 42px;
+    transition: 0.3s;
+    font-size: 120px;
+}
